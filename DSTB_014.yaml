@@ -1,5 +1,5 @@
 proxies:
-- name: danu13_LiveCth14
+- name: danu13_VisionCth14
   type: trojan
   server: sg-cth.sshpremium.my.id
   port: 443
