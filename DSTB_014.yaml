@@ -1,4 +1,17 @@
 proxies:
+- name: Slamet_LiveDO_1
+  type: trojan
+  server: 104.21.8.121
+  port: 443
+  password: b0d4e87d-2fc0-47cd-b7fe-86eb4e2c97b7
+  udp: true
+  sni: sgdo2.myserver-prem.xyz
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /xraytrojanws
+    headers:
+      Host: sgdo2.myserver-prem.xyz
 - name: TrojanWsSvr-Live_1
   type: trojan
   server: 104.18.1.196
