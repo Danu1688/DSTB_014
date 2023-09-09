@@ -1,7 +1,7 @@
 proxies:
 - name: Slamet_LiveDO_1
   type: trojan
-  server: 104.21.8.121
+  server: circles.asia
   port: 443
   password: b0d4e87d-2fc0-47cd-b7fe-86eb4e2c97b7
   udp: true
@@ -14,7 +14,7 @@ proxies:
       Host: sgdo2.myserver-prem.xyz
 - name: TrojanWsSvr-Live_1
   type: trojan
-  server: 104.18.1.196
+  server: circles.asia
   port: 443
   password: 9766b64f-2d18-464b-8be5-02231f0e0c44
   udp: true
